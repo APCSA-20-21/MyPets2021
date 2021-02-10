@@ -1,4 +1,4 @@
-class Dog extends PetParent
+public class Dog extends PetParent
 {
   private boolean hasTail;
   private int loyalty; //1-10
@@ -10,6 +10,13 @@ class Dog extends PetParent
     this.hasTail = hasTail;
     this.loyalty = loyalty;
     this.breed = breed;
+  }
+
+  //getters and setters
+
+  public String speak()
+  {
+    return "Bark";
   }
 
   public String toString()

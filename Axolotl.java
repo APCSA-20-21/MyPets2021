@@ -1,4 +1,4 @@
-class Axolotl extends PetParent
+public class Axolotl extends PetParent
 {
   //instance variables
   private boolean hasRegenerated;
@@ -14,6 +14,18 @@ class Axolotl extends PetParent
   public String dailyRoutine()
   {
     return super.getName() + " will sleep whenever, eat whenever, then float.";
+  }
+
+  public String speak()
+  {
+    if (hasRegenerated)
+    {
+      return "gurgles";
+    }
+    else
+    {
+      return "bloop";
+    }
   }
 
   //toString
