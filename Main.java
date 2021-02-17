@@ -8,9 +8,11 @@ public  class Main
 
     System.out.println(nutmeg.dailyRoutine());
     System.out.println(nutmeg.speak());
-    //System.out.println(nutmeg.getLoyalty());
+    System.out.println(((Dog)nutmeg).getLoyalty());
 
     Dog piper = new Dog("Piper", true, "black and white", 10, 0.5, false, 8, "Australian Shepherd");
+
+    System.out.println(piper.getLoyalty());
 
     Axolotl matthew = new Axolotl("Matthew", false, "pink", 5, 0.6, true);
 
@@ -23,11 +25,11 @@ public  class Main
 
     // blankPet.setName("Fluffy");
     // System.out.println("Bob is now called " + blankPet.getName());
-    System.out.println(piper.dailyRoutine());
-    System.out.println(matthew.dailyRoutine());
+    // System.out.println(piper.dailyRoutine());
+    // System.out.println(matthew.dailyRoutine());
 
-    System.out.println("Piper says " + piper.speak());
-    System.out.println("Matthew says " + matthew.speak());
+    // System.out.println("Piper says " + piper.speak());
+    // System.out.println("Matthew says " + matthew.speak());
 
 /*
     System.out.println(blankPet.toString());
